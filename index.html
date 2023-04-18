@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>MWebsite</title>
+    <style>
+		body {
+			background-color: #f8f2e4;
+			margin:40px auto;
+			max-width:800px;
+			line-height:1.6;
+			padding:0 10px;
+			font-family: "Raleway", sans-serif
+		}
+		h2,h3{
+			line-height:1.2
+		}
+		h2 {
+			margin-top: 8%;
+		}
+		.first {
+			margin-top: 0%;
+			font-style:italic;
+			font-weight: lighter;
+		}
+		img {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			width: 80%;
+		}
+		.row {
+			display: flex;
+		}
+
+		.column {
+			flex: 1;
+			padding: 5px;
+			width:55%;
+		}
+		
+		iframe {
+			margin: auto;
+  			width: 100%;
+			border: none;
+			height: 500px;
+		}
+    </style>
+  </head>
+  <body css="background-color:tan">
+	<h1>World News Composition</h1>
+	<h2 class="first">Where do people get their information?</h2>
+	<p>
+	This was one of the questions asked by the <a href="https://www.worldvaluessurvey.org/WVSContents.jsp">World Values Survey</a> in their quinquennial (5 year) survey.
+	Primarily using their "Wave 7" data from 2017-2021, I will provide a brief overview and analysis of their results.
+	The Wave 7 data had 94,278 responses from individuals in 60 countries - to an average of 1,571 per country, though the
+	actual figure ranges from around 1,200 - 2,800. The surveyed news sources are newspapers, tv, radio, mobile, email, internet,
+	social media, and word of mouth.
+	
+	Now let's first examine one particular country.
+	</p>
+	<h2>USA: Internet Nation</h2>
+	<img src="img0.png">
+	<p>
+	The above graphic shows the distribution of answers on the question of - how often did they use that particular source for information?
+	With the exception of low newspaper usage, the US has high usage of many different information categories, with 
+	internet, mobile, and television standing out in particular.
+	</p>
+	<h2>The Death of Newspapers?</h2>
+	<img src="img1.png" style="width:60%;">
+	<p>
+	How have new sources changed? Fortunately, WVS asked the same question in 2011, so we compare how responses have changed.
+	Looking at the results, it seems there have been significant changes; newspaper saw a steep decline, internet saw a decent increase,
+	mobile informaton usage spiked, and it seems low-tech word of mouth has remained mostly flat. It wouldn't surprise me if this
+	trend continues.
+	</p>
+	<h2>The World Likes TV</h2>
+	<img src="img2.png" style="width:100%">
+	<p>
+	Now lets take a look around the world at the 60 countries surveyed by WVS and examine their top news source.
+	Here, top is defined as highest mean usage score (from an ordinal value given by respondants).
+	Interestingly, television remains the dominant news source, though we see great variety.
+	Some surveyed African nations and Venezuela rely on word of mouth. WeChat-centric China is the standout on phones.
+	Some Anglo nations have adopted the internet with greater fervor.
+	</p>
+	<h2>Information Diversity Index</h2>
+	<iframe src="useofinfo.html"></iframe>
+	<p style="margin-top:-10px; margin-bottom:-10px;"> Do some countries get their news from a greater diversity of surveyed sources? The above interactive visual shows
+		the mean score for a country of all responses to surveyed questions about media. The higher the score, the more 
+		the respondents of a country consume more information and also from a greater variety of sources. Interestingly, Kenya
+		and Malayasia lead in this metrix.
+	</p>
+	<h2>HDI associated with more information</h2>
+	<div class="row">
+		<img src="img3.png" class="column" style="margin-left:-7.5%;">
+		<img src="img4.png" class="column">
+	</div>
+	<p>
+	Why do different nations have different news sources? Its a complex question, but we can examine several factors.
+	In particular, HDI - a measure of life expectancy, education quality, and per capita income - seems to be
+	associated with information gain. In particular, an increase in internet information usage is associated with
+	increased HDI. Word-of-mouth sees a smaller increase but still a strong relationship.
+	</p>
+	<h2>Democracy associated with more information</h2>
+	<img src="img6.png">
+	<p>
+	A similar story plays out when we answer with democracy. 'Free' regimes have, on average, higher information usage
+	scores across the board, though this effect varies from source to source. Further studies should be done to isolate
+	and determine the cause of this relationship.
+	</p>
+	<h2>No Access</h2>
+	<img src="img5.png">
+	<p>
+	How does government censorship affect news sources? The graph above shows that regimes that more frequently shut the
+	internet down also see lower information usage of the internet, suggesting that internet shutdowns are effective
+	at curtailing news spread on the internet.
+	</p>
+	<hr style="margin-top:5%; margin-bottom:-5%">
+	<h2>"The Information Age"</h2>
+	<p>
+	One of the self-ascribed monikors of the 20th and 21st century is "The Information Age."
+	Examining this short-slice of data, we can see that this monikor is at least partly true.
+	The modern world uses a diverse variety of different data sources and in greater numbers.
+	As the world continues to develop, the data presented above suggests that information sources will diverse
+	and consumption will increase. Yet we should also question how this greater flow of information
+	affects us and the world around us.
+	</p>
+  </body>
+</html>
